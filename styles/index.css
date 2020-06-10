@@ -1,0 +1,179 @@
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #e3e3e3;
+    font-family: 'Lato', sans-serif;
+
+}
+header
+{
+    background-color: unset;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+
+}
+
+#header-img
+{
+    height: 40px;
+    display:block;
+    margin-left : 30px;
+    margin-top: 20px;
+
+}
+
+#container{
+    display: flex;
+    margin-left:30px;
+    justify-content: space-between;
+
+}
+
+#frontImage{
+    height: 630px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-weight: revert;
+    font-size: 19px;
+}
+
+#elements{
+    display:flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 650px;
+}
+
+.button{
+    background-color: unset;
+    color : #e3e3e3;
+    display: inline-block;
+    border-style: groove;
+    border-color: #e3e3e3;
+    border-width: 2px;
+    padding: 5px 20px 5px 20px;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 22px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#signinB{
+    padding: 5px 40px 5px 40px;
+}
+
+#text{
+    align-self: center;
+}
+
+#fb {
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#github{
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#email{
+    height: 15px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+
+    width: 180px;
+    height: 170px;
+
+}
+
+.card img{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+
+}
+
+.card p{
+    text-align: center;
+    font-size: 22px;
+}
+
+#gallery{
+
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#gallery div{
+    display: inline-block;
+}
+
+#gallery h1{
+    font-size: 32px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+
+}
+
+#gallery a{
+    letter-spacing: 1px;
+    color : #e3e3e3;
+    border-style: groove;
+    border-color: #e3e3e3;
+    border-width: 2px;
+    padding: 5px 20px 5px 20px;
+    font-size: 22px;
+    margin-top: 40px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+
+footer{
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span{
+    color:#006bff;
+}

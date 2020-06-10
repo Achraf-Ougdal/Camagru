@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   background-color: black;
+   color: #e3e3e3;
+   font-family: 'Lato', sans-serif;
+}
+header
+{
+	background-color: black;
+	height: 60px;
+	width: 100%;
+
+}
+
+#header-img
+{
+	height: 40px;
+	display:block;
+    margin:auto;
+    margin-top: 20px;
+}
+
+
+.error
+{
+  height: 15px;
+  color: rgba(255, 0, 0, 0.98);
+  font-size: 16px;
+}
+
+main
+{
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  color: #e3e3e3;
+  background-color: unset;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#container
+{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 45px;
+}
+
+input[type="email"]
+{
+  width: 350px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 5px 15px 5px 15px;
+  border-width: 0px 0px 2px 0px;
+  border-color: white;
+  background-color: unset;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+}
+
+
+input[type="submit"]
+{
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 5px 15px 5px 15px;
+  border-width: 3px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: unset;
+  border-width: 3px;
+  border-color: #007bf0;
+  color: #007bf0;
+}
+
+/*#6c63ff*/
+input[type="email"]:hover,input[type="email"]:focus
+{
+  border-color: #007bf0;
+  color: #007bf0;
+}
+
+/*
+color: #007bff;
+color: #3a3739;
+*/
+input[type="submit"]:hover
+{
+  background-color: unset;
+  border-width: 3px;
+  border-color: #007bf0;
+  color: #007bf0;
+}
+
+a
+{
+  color: #007bf0;
+}

@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   background-color: black;
+   font-family: 'Lato', sans-serif;
+}
+header
+{
+	background-color: black;
+	height: 60px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#header-img
+{
+	height: 40px;
+	display:block;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.error
+{
+	height: 15px;
+	color: red;
+	font-size: 13px;
+}
+
+#container
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+main
+{
+	width: 900px;
+	height: 580px;
+	color: #e3e3e3;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: auto;
+	margin-top: 40px;
+	background-color: unset;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.forgot
+{
+	color: #007bf0;
+	display: inline-block;
+    text-align: right;
+    width: 80%;
+}
+
+a
+{
+	color: #007bf0;
+}
+
+.page-img
+{
+	max-width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 45px;
+}
+
+input[type="text"],input[type="password"]
+{
+	width: 350px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 5px 15px 5px 15px;
+	border-width: 0px 0px 2px 0px;
+	border-color: white;
+	background-color: unset;
+	color: white;
+	display: block;
+	margin: auto;
+	margin-top: 13px;
+}
+
+
+input[type="submit"]
+{
+	width: 150px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	padding: 5px 15px 5px 15px;
+	border-width: 3px;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	background-color: unset;
+	border-width: 3px;
+	border-color: #007bf0;
+	color: #007bf0;
+}
+
+/*#6c63ff*/
+input[type="text"]:hover,input[type="password"]:hover,input[type="text"]:focus,input[type="password"]:focus
+{
+	border-color: #007bf0;
+	color: #007bf0;
+}
+
+/*
+color: #007bff;
+color: #3a3739;
+*/
